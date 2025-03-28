@@ -1,11 +1,1444 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>Microsite</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script language="JavaScript">
+    function suppressJSError() {
+      return true;
+    }
+    window.onerror = suppressJSError;
+  </script>
 </head>
+
 <body>
+  <!-- header section starts -->
+  <header>
+    <div class="navbar-section" id="header_menu">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" class="img-fluid logo"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#overview">Overview <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-item-2 nav-item2" href="#price-list">Price List</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-item-2 nav-item2" href="#highlights">Highlights</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-item-2 nav-item2" href="#amenities">Amenities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-item-2 nav-item2" href="#location">Location</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-item-2 nav-item2" href="#floor-plans">Floor Plans</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-item-2 nav-item2" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-item-2 nav-item2" href="#contact-us">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn ml-2 btn-grad text-white" href="tel:+91-9999999999"><i class="fa fa-phone"
+                    aria-hidden="true"></i> +91-9999999999</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="banner-section">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/banners/banner.png" class="img-fluid " alt="...">
+          </div>
+          <!-- <div class="carousel-item">
+            <img src="images/banners/banner.png" class="img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/banners/banner.png" class="img-fluid" alt="...">
+          </div> -->
+        </div>
+        <!-- <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </button> -->
+      </div>
+
+      <div class="banner-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="left-col">
+                <p class=" b-location"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp; Noida</p>
+                <h2><span>Luxury Property</span> 2 & 3 BHK Apartments</h2>
+                <div class="price-section">
+                  <div class="price">
+                    <p>Investment Starts From</p>
+                    <h3>₹ 2.30 Cr* Onwards</h3>
+                  </div>
+                </div>
+                <button class="btn outline-btn banner-btn" data-toggle="modal" data-target="#myModal">View More Projects</button>
+              </div>
+            </div>
+
+            <div class="banner-arrow">
+              <!-- <a href="#" class="bounce">&#8595;</a> -->
+              <div class="field">
+                <div class="mouse"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+
+  </header>
+  <!-- header section ends -->
+
+  <!-- about us starts -->
+  <section class="overview" id="overview">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="heading">
+            <p>about Project</p>
+            <h4><span>Making Your Real Estate Dreams</span>
+              a Reality with Our Agency</h4>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="overview-img1">
+            <img src="images/overview-img/overview1.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-4 d-flex align-items-center justify-content-center">
+          <div class="overview-para">
+            <p>Our real estate agency is a business that specializes in helping clients buy, sell, or rent properties.
+              Real estate agencies employ licensed real estate agents who are trained and knowledgeable about the real
+              estate market in a specific area. We also help clients negotiate the terms of a sale or purchase.</p>
+            <p>Our real estate agency is a business that specializes in helping clients buy, sell, or rent properties.
+            </p>
+            <div class="brochure-btn">
+              <button class="btn outline-btn" data-toggle="modal" data-target="#myModal">Download Brochure</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class=" overview-img-2">
+            <img src="images/overview-img/overview2.jpg" alt="">
+            <div class="overlay-overview-img">
+              <img src="images/overview-img/overview3.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row key-point-row">
+        <div class="col-6 col-md-3">
+          <div class="key-high-box">
+            <p><img src="images/icons/city.png" alt=""></p>
+            <h6>No. of Towers</h6>
+            <p>10</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="key-high-box">
+            <p><img src="images/icons/park.png" alt=""></p>
+            <h6>Incredible View</h6>
+            <p>Green Parks</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="key-high-box">
+            <p><img src="images/icons/purchase.png" alt=""></p>
+            <h6>Possession</h6>
+            <p>December 2026</p>
+          </div>
+        </div>
+        <div class=" col-6 col-md-3">
+          <div class="key-high-box">
+            <p><img src="images/icons/project-status.png" alt=""></p>
+            <h6>Project Status</h6>
+            <p>Ready To Move</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about us ends -->
+
+  <!-- price-list section starts -->
+  <section class="price-list" id="price-list">
+    <div class="price-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="heading">
+              <p>what we offer</p>
+              <h4><span>Choose Your</span>
+                Perfect Apartment</h4>
+            </div>
+          </div>
+        </div>
+        <div class="price-list-row">
+          <table style="width:100%">
+            <tr class="price-headings">
+              <th>Type</th>
+              <th>Typlology</th>
+              <th>Size</th>
+              <th>Price</th>
+              <th>Informed</th>
+            </tr>
+            <tr class="price_list">
+              <td style="color: #fff; font-size: 20px;" class="price-head">Residential</td>
+              <td>1 BHK</td>
+              <td>300 Sq. Ft.</td>
+              <td>₹ 2.38 Cr* Onwards</td>
+              <td><button class="btn price-btn" data-toggle="modal" data-target="#myModal">Know More</button></td>
+            </tr>
+            <tr class="price_list">
+              <td style="color: #fff; font-size: 20px;" class="price-head">Residential</td>
+              <td>2 BHK</td>
+              <td>300 Sq. Ft.</td>
+              <td>₹ 2.38 Cr* Onwards</td>
+              <td><button class="btn price-btn" data-toggle="modal" data-target="#myModal">Know More</button></td>
+            </tr>
+            <tr class="price_list">
+              <td style="color: #fff; font-size: 20px;" class="price-head">Residential</td>
+              <td>2 BHK + Utility</td>
+              <td>300 Sq. Ft.</td>
+              <td>₹ 2.38 Cr* Onwards</td>
+              <td><button class="btn price-btn" data-toggle="modal" data-target="#myModal">Know More</button></td>
+            </tr>
     
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- price-list section ends -->
+
+  <!-- highlight section starts -->
+  <section class="highlights" id="highlights">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="heading">
+            <p>what we offer</p>
+            <h4><span>Highlights &</span>
+              Social Facilities</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="highlight-box">
+            <p><img src="images/highlight-icons/guarantee.png" alt=""></p>
+            <h3>24/7 Security</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quod omnis ipsam nesciunt dolorem
+              necessitatibus eos suscipit?</p>
+            <div class="number-count">
+              <p>1</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="highlight-box">
+            <p><img src="images/highlight-icons/lake.png" alt=""></p>
+            <h3>Lake View</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quod omnis ipsam nesciunt dolorem
+              necessitatibus eos suscipit?</p>
+            <div class="number-count">
+              <p>2</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="highlight-box">
+            <p><img src="images/highlight-icons/elevator.png" alt=""></p>
+            <h3>Lift Room</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quod omnis ipsam nesciunt dolorem
+              necessitatibus eos suscipit?</p>
+            <div class="number-count">
+              <p>3</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="highlight-box">
+            <p><img src="images/highlight-icons/staircase.png" alt=""></p>
+            <h3>Best Interior</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quod omnis ipsam nesciunt dolorem
+              necessitatibus eos suscipit?</p>
+            <div class="number-count">
+              <p>4</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="highlight-box">
+            <p><img src="images/highlight-icons/project-management.png" alt=""></p>
+            <h3>Luxurious Plan</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quod omnis ipsam nesciunt dolorem
+              necessitatibus eos suscipit?</p>
+            <div class="number-count">
+              <p>5</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="highlight-box">
+            <p><img src="images/highlight-icons/parking.png" alt=""></p>
+            <h3>Car Parking</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quod omnis ipsam nesciunt dolorem
+              necessitatibus eos suscipit?</p>
+            <div class="number-count">
+              <p>6</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- highlight section ends -->
+
+  <!-- amenities section starts -->
+  <section class="amenities" id="amenities">
+    <div class="amenities-container">
+      <img src="images/amenities-leaf.png" alt="" class="amenities-leaf">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-md-3">
+            <div class="amenities-img">
+              <img src="images/amenities/swimming-pool.jpg" alt="" class="img-fluid">
+              <div class="img-overlay">
+                <div class="text"><span><img src="images/amenities/swimming-pool.png" alt=""></span>Swimming Pool</div>
+              </div>
+            </div>
+          </div>
+  
+            <div class="col-6 col-md-3">
+              <div class="amenities-img amenities-img-2">
+                <img src="images/amenities/kidsplay-area.jpg" alt="" class="img-fluid"> 
+                <div class="img-overlay">
+                  <div class="text"><span><img src="images/amenities/playground.png" alt=""></span>Kid's Play Area</div>
+                </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-md-3">
+                <div class="amenities-img amenities-img-2">
+                  <img src="images/amenities/yoga.jpg" alt="" class="img-fluid">
+                  <div class="img-overlay">
+                    <div class="text"><span><img src="images/amenities/yoga.png" alt=""></span>Yoga</div>
+                  </div>
+                </div>
+              </div>
+         
+  
+          <div class="col-6 col-md-3">
+            <div class="amenities-img">
+              <img src="images/amenities/gym.jpg" alt="" class="img-fluid">
+              <div class="img-overlay">
+                <div class="text"><span><img src="images/amenities/weights.png" alt=""></span>Gym</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class=" col-12">
+            <div class="amenity-heading">
+              <div class="heading">
+                <img src="images/cricle.png" alt="">
+                <p>what we offer</p>
+                <h4><span>Amenities &</span>
+                  Social Facilities</h4>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 col-md-3">
+            <div class="amenities-img">
+              <img src="images/amenities/clubhouse.jpg" alt="" class="img-fluid">
+              <div class="img-overlay">
+                <div class="text"><span><img src="images/amenities/clubhouse.png" alt=""></span>Clubhouse</div>
+              </div>
+            </div>
+          </div>
+  
+      
+
+          <div class="col-6 col-md-3">
+            <div class="amenities-img amenities-img-5">
+              <img src="images/amenities/petpark.jpg" alt="" class="img-fluid"> 
+              <div class="img-overlay">
+                <div class="text"><span><img src="images/amenities/dog-walking.png" alt=""></span>Pet Park</div>
+              </div>
+              </div>
+            </div>
+
+          <div class="col-6 col-md-3">
+            <div class="amenities-img amenities-img-5">
+              <img src="images/amenities/spa.jpg" alt="" class="img-fluid">
+              <div class="img-overlay">
+                <div class="text"><span><img src="images/amenities/spa.png" alt=""></span>Spa</div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-6 col-md-3">
+            <div class="amenities-img">
+              <img src="images/amenities/indoor-games.jpg" alt="" class="img-fluid">
+              <div class="img-overlay">
+                <div class="text"><span><img src="images/amenities/table-tennis.png" alt=""></span>Indoor Games</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <img src="images/amenities-leaf.png" alt="" class="amenities-leaf-bottom">
+
+    </div>
+
+  </section>
+  <!-- amenities section ends -->
+
+  <!-- location advantages section starts -->
+  <section class="location" id="location">
+    <div class="location-advantages">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="location-map">
+            <a href="images/location-map.png" class="with-caption image-link" title="Location Map">
+              <img src="images/location-map.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="heading">
+              <p>Prime Location</p>
+              <h4><span>Location &</span>
+                their advantages</h4>
+            </div>
+            <div class="location-adv">
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <i class="fa fa-hospital-o" aria-hidden="true"></i>&nbsp; Hospital
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                      AIIMS - 6 mins
+                    </div>
+                    <div class="card-body">
+                      Bara Hindu Rao Hospital - 16 mins
+                    </div>
+                    <div class="card-body">
+                      Deen Dayal Upadhyaya - 20 mins
+                    </div>
+                    <div class="card-body">
+                      G. T. B. Hospital - 10 mins
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <i class="fa fa-graduation-cap" aria-hidden="true"></i> &nbsp; School
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Adarsh Public School - 2km
+                    </div>
+                    <div class="card-body">
+                      Air Force Bal Bharati School - 20km
+                    </div>
+                    <div class="card-body">
+                      Bluebells School - 9km
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i> &nbsp; Entertainment
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                      DLF Emporio Mall - 2mins
+                    </div>
+                    <div class="card-body">
+                      DLF Promenade Mall - 6 mins
+                    </div>
+                    <div class="card-body">
+                      Pacific Mall - 20 mins
+                    </div>
+                    <div class="card-body">
+                      Ambience Mall - 12 mins
+                    </div>
+                    <div class="card-body">
+                      Metro Walk Mall - 6 mins
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingFour">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+                        <i class="fa fa-road" aria-hidden="true"></i> &nbsp; Connectivity
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseFour" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      NH-3 - 2km
+                    </div>
+                    <div class="card-body">
+                      Dwarka Expressway - 20km
+                    </div>
+                    <div class="card-body">
+                      Delhi-Gurugram Expressway - 9km
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- location advantages section ends -->
+
+
+  <!-- floor plan section starts -->
+  <section class="floor-plan" id="floor-plans">
+    <div class="floor-plan-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="heading">
+              <p>what we offer</p>
+              <h4><span>Luxury Homes & Properties</span>
+                for Discerning Buyers</h4>
+            </div>
+          </div>
+        </div>
+        <div class="floor-plan-row">
+          <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="nav-home-tab" data-toggle="tab" data-target="#nav1" type="button"
+                role="tab" aria-controls="nav-home" aria-selected="true">Master Plan</button>
+              <button class="nav-link" id="nav-profile-tab" data-toggle="tab" data-target="#nav2" type="button"
+                role="tab" aria-controls="nav-profile" aria-selected="false">2 BHK Apartments</button>
+              <button class="nav-link" id="nav-contact-tab" data-toggle="tab" data-target="#nav3" type="button"
+                role="tab" aria-controls="nav-contact" aria-selected="false">2 BHK Apartments</button>
+              <button class="nav-link" id="nav-contact-tab" data-toggle="tab" data-target="#nav4" type="button"
+                role="tab" aria-controls="nav-contact" aria-selected="false">3 BHK Apartments</button>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav1" role="tabpanel" aria-labelledby="nav-home-tab">
+              <div class="row">
+                <div class="col-md-7">
+                  <div class="floor-plan-box">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quos nulla fugit doloribus vero!
+                      Unde architecto minus nobis quaerat saepe. Alias, in nisi! Ex facilis molestiae natus esse
+                      tempore. Deleniti. Alias, in nisi! Ex facilis molestiae natus esse.</p>
+                    <div class="floor-plan-list">
+                      <div class="floor-list">
+                        <p>Type:</p>
+                      </div>
+                      <div class="floor-list1">
+                        <p>Residential</p>
+                      </div>
+                    </div>
+                    <div class="floor-plan-list">
+                      <div class="floor-list">
+                        <p>Typology:</p>
+                      </div>
+                      <div class="floor-list1">
+                        <p>1 BHK Apartment</p>
+                      </div>
+                    </div>
+                    <div class="floor-plan-list">
+                      <div class="floor-list">
+                        <p>Price Starts At:</p>
+                      </div>
+                      <div class="floor-list1">
+                        <p>₹ 70 Lacs* Onwards</p>
+                      </div>
+                    </div>
+                    <div class="floor-btn">
+                      <button class="btn outline-btn" data-toggle="modal" data-target="#myModal">View More Plans</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <div class="floor-plan-imgs">
+                    <a href="images/floor-plans/floor-plan1.jpg" class="with-caption image-link" title="Floor Plans">
+                      <img src="images/floor-plans/floor-plan1.jpg" alt="" class="img-fluid">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="nav2" role="tabpanel" aria-labelledby="nav-profile-tab">
+              <div class="row">
+                <div class="col-md-7">
+                  <div class="floor-plan-box">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quos nulla fugit doloribus vero!
+                      Unde architecto minus nobis quaerat saepe. Alias, in nisi! Ex facilis molestiae natus esse
+                      tempore. Deleniti. Alias, in nisi! Ex facilis molestiae natus esse.</p>
+                    <div class="floor-plan-list">
+                      <div class="floor-list">
+                        <p>Type:</p>
+                      </div>
+                      <div class="floor-list1">
+                        <p>Residential</p>
+                      </div>
+                    </div>
+                    <div class="floor-plan-list">
+                      <div class="floor-list">
+                        <p>Typology:</p>
+                      </div>
+                      <div class="floor-list1">
+                        <p>1 BHK Apartment</p>
+                      </div>
+                    </div>
+                    <div class="floor-plan-list">
+                      <div class="floor-list">
+                        <p>Price Starts At:</p>
+                      </div>
+                      <div class="floor-list1">
+                        <p>₹ 70 Lacs* Onwards</p>
+                      </div>
+                    </div>
+                    <div class="floor-btn">
+                      <button class="btn outline-btn" data-toggle="modal" data-target="#myModal">View More Plans</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <div class="floor-plan-imgs">
+                    <a href="images/floor-plans/floor-plan1.jpg" class="with-caption image-link" title="Floor Plans">
+                      <img src="images/floor-plans/floor-plan1.jpg" alt="" class="img-fluid">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="nav3" role="tabpanel" aria-labelledby="nav-contact-tab">
+              <div class="row">
+                <div class="col-md-7">
+                  <div class="floor-plan-box">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quos nulla fugit doloribus vero!
+                      Unde architecto minus nobis quaerat saepe. Alias, in nisi! Ex facilis molestiae natus esse
+                      tempore. Deleniti. Alias, in nisi! Ex facilis molestiae natus esse.</p>
+                    <div class="floor-plan-list">
+                      <div class="floor-list">
+                        <p>Type:</p>
+                      </div>
+                      <div class="floor-list1">
+                        <p>Residential</p>
+                      </div>
+                    </div>
+                    <div class="floor-plan-list">
+                      <div class="floor-list">
+                        <p>Typology:</p>
+                      </div>
+                      <div class="floor-list1">
+                        <p>1 BHK Apartment</p>
+                      </div>
+                    </div>
+                    <div class="floor-plan-list">
+                      <div class="floor-list">
+                        <p>Price Starts At:</p>
+                      </div>
+                      <div class="floor-list1">
+                        <p>₹ 70 Lacs* Onwards</p>
+                      </div>
+                    </div>
+                    <div class="floor-btn">
+                      <button class="btn outline-btn" data-toggle="modal" data-target="#myModal">View More Plans</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <div class="floor-plan-imgs">
+                    <a href="images/floor-plans/floor-plan1.jpg" class="with-caption image-link" title="Floor Plans">
+                      <img src="images/floor-plans/floor-plan1.jpg" alt="" class="img-fluid">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="nav4" role="tabpanel" aria-labelledby="nav-contact-tab">
+              <div class="row">
+                <div class="col-md-7">
+                  <div class="floor-plan-box">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quos nulla fugit doloribus vero!
+                      Unde architecto minus nobis quaerat saepe. Alias, in nisi! Ex facilis molestiae natus esse
+                      tempore. Deleniti. Alias, in nisi! Ex facilis molestiae natus esse.</p>
+                    <div class="floor-plan-list">
+                      <div class="floor-list">
+                        <p>Type:</p>
+                      </div>
+                      <div class="floor-list1">
+                        <p>Residential</p>
+                      </div>
+                    </div>
+                    <div class="floor-plan-list">
+                      <div class="floor-list">
+                        <p>Typology:</p>
+                      </div>
+                      <div class="floor-list1">
+                        <p>1 BHK Apartment</p>
+                      </div>
+                    </div>
+                    <div class="floor-plan-list">
+                      <div class="floor-list">
+                        <p>Price Starts At:</p>
+                      </div>
+                      <div class="floor-list1">
+                        <p>₹ 70 Lacs* Onwards</p>
+                      </div>
+                    </div>
+                    <div class="floor-btn">
+                      <button class="btn outline-btn" data-toggle="modal" data-target="#myModal">View More Plans</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <div class="floor-plan-imgs">
+            <a href="images/floor-plans/floor-plan1.jpg" class="with-caption image-link" title="Floor Plans">
+              <img src="images/floor-plans/floor-plan1.jpg" alt="" class="img-fluid">
+            </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- floor plan section ends-->
+
+  <!-- gallery section starts -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="heading">
+            <p>what we offer</p>
+            <h4><span>Homes Tailored to </span>
+              Your Lifestyle</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row gallery-slider">
+        <div class="col-md-4">
+          <div class="gallery-img gallery-img1">
+            <a href="images/gallery/gallery1.jpg" class="with-caption image-link" title="Gallery Image">
+              <img src="images/gallery/gallery1.jpg" alt="" class="img-fluid">
+            </a>
+          </div>
+
+        </div>
+        <div class="col-md-4">
+          <div class="gallery-img">
+            <a href="images/gallery/gallery2.jpg" class="with-caption image-link" title="Gallery Image">
+              <img src="images/gallery/gallery2.jpg" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="gallery-img gallery-img1">
+            <a href="images/gallery/gallery1.jpg" class="with-caption image-link" title="Gallery Image">
+              <img src="images/gallery/gallery1.jpg" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="gallery-img">
+            <a href="images/gallery/gallery2.jpg" class="with-caption image-link" title="Gallery Image">
+              <img src="images/gallery/gallery2.jpg" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="gallery-img gallery-img1">
+            <a href="images/gallery/gallery1.jpg" class="with-caption image-link" title="Gallery Image">
+              <img src="images/gallery/gallery1.jpg" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="gallery-img">
+            <a href="images/gallery/gallery2.jpg" class="with-caption image-link" title="Gallery Image">
+              <img src="images/gallery/gallery2.jpg" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- gallery section ends -->
+
+  <!-- contact Us section starts -->
+
+  <section class="contact-us" id="contact-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="heading">
+            <p>About Builder</p>
+            <h4><span>Godrej Properties </span></h4>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <p class="bottom-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias error quas deleniti commodi id, consectetur
+            ipsa voluptatum nostrum eius assumenda ducimus sint eum quo. Perferendis inventore natus minus, ea tempora
+            ab laboriosam aut ipsa culpa recusandae. Fugiat non quasi exercitationem! Praesentium iusto a blanditiis
+            modi, ex nostrum sint necessitatibus eligendi illum quibusdam nihil alias, est nemo asperiores similique
+            recusandae cupiditate? Voluptas rerum pariatur impedit! Natus doloribus quos tenetur sequi obcaecati fuga
+            odit officia perspiciatis voluptas, iure ipsa error, sed, recusandae sint illo veritatis deleniti deserunt!
+            Dolore deleniti ipsam, placeat hic ex ratione eveniet laboriosam non vitae tempore autem vero dolorum.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-form">
+      <div class="container">
+        <div class="footer-form-box">
+          <div class="form-boxx">
+            <h2>Get In Touch</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus culpa obcaecati sapiente, fugiat quas cum.
+            </p>
+            <div class="form-group">
+              <!-- <select name="sources" id="sources" class="custom-select form-control" placeholder="Select Project" required="" style="background: #000000b5;">
+                            <option value="select">Choose Projects</option>
+                            <option value="M3m Golf Hills Gurugram PD:4718"> M3m Golf Hills</option>
+                              <option value="M3m Golf Estate Scda Gurugram PD:4718"> M3m Golf Estate Scda</option>
+                          </select>  -->
+            </div>
+            <div class="form-group">
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Enter Name" id="qSenderNameFooter">
+                </div>
+                <div class="col">
+                  <input type="email" class="form-control email-address" placeholder="Enter Gmail" id="qEmailIDFooter">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control number-only" placeholder="Enter Number" id="qMobileNoFooter">
+            </div>
+            <div class="form-group">
+              <textarea name="" id="qMessageFooter" rows="4" class="form-control" placeholder="Message"
+                required=""></textarea>
+            </div>
+            <div class="form-group d-flex justify-content-center">
+              <button type="button" class="btn btn-grad text-white" id="SubmitQueryFooter" value="Submit">Submit
+                Now</button>
+            </div>
+            <p
+              style="font-weight: 400;color: #000000;opacity: 1;font-size:10px;letter-spacing: 0.5px;margin:0;line-height:15px; margin-top:12px;">
+              <input type="checkbox" id="checkbox1" checked="" name="subscribe" value="check"> I authorize company
+              representatives to Call, SMS, Email or WhatsApp me about its products and offers. This consent overrides
+              any registration for DNC/NDNC.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+  <!-- contact Us section ends-->
+
+  <!-- footer section starts -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="footer-box">
+            <h2><img src="images/logo.png" alt=""></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, fugit incidunt cupiditate repellat
+              voluptate quis architecto atque doloribus rerum excepturi corrupti rem commodi perferendis et assumenda
+              consequuntur repudiandae quibusdam animi.</p>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <div class="footer-box">
+            <h2>Links</h2>
+            <ul class="bottom-footer-links">
+              <li><a href="index.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Home</a></li>
+              <li><a href="index.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Projects</a></li>
+              <li><a href="index.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Blogs</a></li>
+              <li><a href="index.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Contact Us</a></li>
+              <li><a href="index.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Disclaimer</a></li>
+              <li><a href="index.html"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Terms &
+                  Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="footer-box">
+            <h2>Other Details</h2>
+            <ul class="bottom-footer-links">
+              <h6><i class="fa fa-map-marker" aria-hidden="true"></i> Address : </h6>
+              <p> Sector-15, Noida Uttar Pradesh</p>
+              <h6><i class="fa fa-phone" aria-hidden="true"></i> Phone No. : </h6>
+              <p><a href="tel:+919898989898">+919898989898</a></p>
+              <h6><i class="fa fa-whatsapp" aria-hidden="true"></i> WhatsApp : </h6>
+              <p><a href="tel:+919898989898">+919898989898</a></p>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="footer-box">
+            <h2>Rera Certificate</h2>
+            <h6>Haryana: 12345678967</h6>
+            <h6>Noida: 12345678967</h6>
+            <div class="rera-certificate"> <a href="images/certificate.jpg" class="with-caption image-link"
+                title="Rera Certificate"></a>
+              <img src="images/certificate.jpg" alt="">
+              </a></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- <hr style="background: #494949;margin: 40px 0px;"> -->
+      <div class="row rera-row">
+        <div class="col-6 col-md-6 agent-rera">
+          <p>Agent Rera: XXXXXXXXXXXXX</p>
+        </div>
+
+        <div class="col-6 col-md-6">
+          <p>Project Rera: XXXXXXXXXXXXXXXX</p>
+        </div>
+      </div>
+
+
+      <!-- <hr style="background: #494949;margin: 40px 0px;"> -->
+
+
+
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <div class="bottom_footer text-center">
+            <h4>Project RERA QR Codes</h4>
+            <div class="qr-codes d-flex text-center justify-content-center">
+              <div><a href="images/qr.png" class="with-caption image-link" title="QR Image"><img src="images/qr.png"
+                    alt="" class="img-fluid" width="70px" height="70px"></a></div>
+              <div><a href="images/qr.png" class="with-caption image-link" title="QR Image"><img src="images/qr.png"
+                    alt="" class="img-fluid" width="70px" height="70px"></a></div>
+              <div><a href="images/qr.png" class="with-caption image-link" title="QR Image"><img src="images/qr.png"
+                    alt="" class="img-fluid" width="70px" height="70px"></a></div>
+              <div><a href="images/qr.png" class="with-caption image-link" title="QR Image"><img src="images/qr.png"
+                    alt="" class="img-fluid" width="70px" height="70px"></a></div>
+
+            </div>
+
+            <p class="btm-foot mt-2">
+              <strong>Disclaimer: </strong> The content provided on this website is for information purposes only and
+              does not
+              constitute an offer to avail any service. The prices mentioned are subject to change without prior
+              notice, and the availability of properties mentioned is not guaranteed.
+            </p>
+            <div class="text-left1 text-center moretext" style="display: none;">
+              <p class="btm-foot"> The images displayed on the website are for representation purposes only and may not
+                reflect the actual properties accurately. Please note that this is the official website of an
+                authorized marketing partner. We may share data with Real Estate Regulatory Authority (RERA)
+                registered brokers/companies for further processing as required. We may also send updates and
+                information to the mobile number or email ID registered with us. All rights reserved. The content,
+                design, and information on this website are protected by copyright and other intellectual property
+                rights. Any unauthorized use or reproduction of the content may violate applicable laws. For accurate
+                and up-to-date information regarding services, pricing, availability, and any other details, it is
+                advisable to contact us directly through the provided contact information on this website. Thank you
+                for visiting our website.</p>
+            </div>
+            <h6 class="moreless-button" style="font-size: 14px;color:#fff;cursor: pointer;">Read more</h6>
+            <!-- <p>Agent Rera: XXXXXXXXXXXXX | Project Rera: XXXXXXXXXXXXXXXX</p> -->
+            <p>Digital Media Planned and Powered by <a href="http://www.gtftechnologies.com/" target="_blank">GTF
+                Technologies</a></p>
+            <p><a href="Disclaimer.html" target="_blank">Disclaimer & Privacy Policies</a></p>
+          </div>
+        </div>
+
+      </div>
+      </div>
+  </footer>
+  <!-- footer sction ends -->
+
+  <!-- fixed section starts -->
+  <div class="enquire_fixed_btn d_sm_none">
+    <div class="side-b whatsapp-button">
+      <a
+        href="https://api.whatsapp.com/send?phone=+919776966966  &amp;text=Hello, Looking for, New Layout. Get in touch with me my name is">
+        <p><i class="fa fa-whatsapp" aria-hidden="true"></i></p>
+        <p>WhatsApp</p>
+      </a>
+    </div>
+
+    <div class="side-b down-load-brochure">
+      <a href="javascript:void(0)" class="btn" data-toggle="modal" data-target="#myModal">
+        <p><i class="fa fa-download" aria-hidden="true"></i></p>
+        <p> Download <br> Brochure </p>
+      </a>
+    </div>
+    <div class="side-b instant-call">
+      <a href="javascript:void(0)" class="btn" data-toggle="modal" data-target="#myModal">
+        <p><i class="fa fa-phone" aria-hidden="true"></i></p>
+        <p> Call <br> Now </p>
+      </a>
+    </div>
+
+  </div>
+  <!-- fixed section ends -->
+
+  <!-- mobile section starts -->
+  <div class="mobile-section-footer"> 
+    <a href="" title="Enquire Now" data-toggle="modal" data-target="#myModal"> Enquire Now</a> 
+    <a href="https://api.whatsapp.com/send?phone=+910123456789  &amp;text=Hello, Looking for 3 and 4 BHK APARTMENTS. Get in touch with me my name is"> WhatsApp</a> 
+    <a href="tel:91-0123456789"> Call Now</a>
+</div>
+  <!-- mobile section ends here -->
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <!-- Modal body -->
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <!-- <img src="images/logo.png" alt="project logo" class="img-fluid modal_logo_img"> -->
+          <h2 class="project_name">Project Name</h2>
+          <p class="project-location">Noida</p>
+          <div class="form_box_2">
+            <div class="form_second_box">
+              <div class="input_grou_row  input_grou_row-1">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Enter Name" id="qSenderName1">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Enter Email" id="qEmailID1">
+                </div>
+              </div>
+              <div class="input_grou_row">
+                <div class="form-group">
+                  <input type="text" class="form-control number-only" name="username" placeholder="Enter Number"
+                    id="qMobileNo1">
+                </div>
+                <div class="form-group" style="margin-bottom: 0px;">
+                  <input type="text" class="form-control" name="comments" placeholder="Enter Comments" id="qMessage1">
+                </div>
+              </div>
+              <button type="button" class="btn outline-btn" id="SubmitQuery1">Submit</button>
+              <p
+                style="font-weight: 400;color: #000000;opacity: 1;font-size:10px;letter-spacing: 0.5px;margin:0;line-height:15px; margin-top:12px;">
+                <input type="checkbox" id="checkbox1" checked="" name="subscribe" value="check"> I authorize company
+                representatives to Call, SMS, Email or WhatsApp me about its products and offers. This consent
+                overrides any registration for DNC/NDNC.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- modal section ends -->
+
+
+
+
+  <script>
+    (function () {
+      if (window.matchMedia("(max-width: 600px)").matches) {
+        Array.from(document.getElementsByClassName('d_sm_none')).forEach(function (item) {
+          item.parentNode.removeChild(item);
+        });
+      } else {
+        Array.from(document.getElementsByClassName('d_sm_block')).forEach(function (item) {
+          item.parentNode.removeChild(item);
+        });
+      }
+    })()
+  </script>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/slick.min.js"></script>
+
+
+
+  <script type="text/javascript" language="javascript">
+    var versionUpdate = (new Date()).getTime();
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://api2.gtftech.com/scripts/queryform.min.ssl.js?v=" + versionUpdate;
+    document.body.appendChild(script);
+  </script>
+  <script>
+    var AgentInfo = {
+      "vAgentID": "",
+      "vProject": "",
+      "vURL": "https://layout.gtftechnologies.com/pr-layout10/",
+      "thankspageurl": "https://layout.gtftechnologies.com/pr-layout10/thanks.htm",
+    };
+    //Needs to be duplicate in the case of multiple forms on the same page
+    //--------------------------------------------------------------------------------------//
+    $('#preferedtime').hide();
+
+    $("#SubmitQuery").click(function () {
+      var FormInfo = {
+        "SenderControlID": "qSenderName",
+        "SenderControlMobileID": "qMobileNo",
+        "SenderControlEmailID": "qEmailID",
+        "SenderControlMsgID": "qMessage"
+      };
+      SubmitQueryData(AgentInfo, FormInfo);
+    });
+    $("#SubmitQueryMobile").click(function () {
+      var FormInfo = {
+        "SenderControlID": "qSenderNameMobile",
+        "SenderControlMobileID": "qMobileNoMobile",
+        "SenderControlEmailID": "qEmailIDMobile",
+        "SenderControlMsgID": "qMessageMobile"
+      };
+      SubmitQueryData(AgentInfo, FormInfo);
+    });
+
+    $("#SubmitQuery1").click(function () {
+      var FormInfo = {
+        "SenderControlID": "qSenderName1",
+        "SenderControlMobileID": "qMobileNo1",
+        "SenderControlEmailID": "qEmailID1",
+        "SenderControlMsgID": "qMessage1"
+      };
+
+      SubmitQueryData(AgentInfo, FormInfo);
+    });
+
+    $("#SubmitQuery2").click(function () {
+      var FormInfo = {
+        "SenderControlID": "qSenderName2",
+        "SenderControlMobileID": "qMobileNo2",
+        "SenderControlEmailID": "qEmailID2",
+        "SenderControlMsgID": "qMessage2"
+      };
+
+      SubmitQueryData(AgentInfo, FormInfo);
+    });
+    $("#SubmitQueryFooter").click(function () {
+      var FormInfo = {
+        "SenderControlID": "qSenderNameFooter",
+        "SenderControlMobileID": "qMobileNoFooter",
+        "SenderControlEmailID": "qEmailIDFooter",
+        "SenderControlMsgID": "qMessageFooter"
+      };
+
+      SubmitQueryData(AgentInfo, FormInfo);
+    });
+
+    //--------------------------------------------------------------------------------------//
+  </script>
+  <!--------------------- Images Zooming Plugin  ----------------->
+  <script>
+    $('.without-caption').magnificPopup({
+      type: 'image',
+      closeOnContentClick: true,
+      closeBtnInside: false,
+      mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
+      image: {
+        verticalFit: true
+      },
+      zoom: {
+        enabled: true,
+        duration: 300 // don't foget to change the duration also in CSS
+      }
+    });
+    $('.with-caption').magnificPopup({
+      type: 'image',
+      closeOnContentClick: true,
+      closeBtnInside: false,
+      mainClass: 'mfp-with-zoom mfp-img-mobile',
+      image: {
+        verticalFit: true,
+        titleSrc: function (item) {
+          return item.el.attr('title') + ' &middot; <a class="image-source-link" href="' + item.el.attr('data-source') + '" target="_blank"></a>';
+        }
+      },
+      zoom: {
+        enabled: true
+      }
+    });
+  </script>
+  <!--------------------- End Here Images Zooming Plugin  ----------------->
+  <!---------------------  Menu Set With Section Plugin  Plz Add This Class nav-link-custom in Your a Tag ----------------->
+  <script>
+    $('.nav-link-custom').on('click', function (e) {
+      // e.preventDefault();
+
+      var target = this.hash,
+        $target = $(target);
+
+      $('html, body').stop().animate({
+        'scrollTop': $target.offset().top - 70
+      }, 500, 'swing', function () {
+        window.location.hash = target;
+      });
+    });
+  </script>
+  <!--------------------- End Here Menu Set With Section Plugin  Plz Add This Class nav-link-custom in Your a Tag ----------------->
+
+
+  <!-- form scroll js -->
+  <script>
+    $(document).ready(function () {
+
+      $(window).scroll(function () {
+
+        if ($(window).width() > 768 && $(this).scrollTop() > 300) {
+          $(".pricelistdiv12").slideUp(500);
+        }
+        else {
+          $(".pricelistdiv12").slideDown(500);
+        }
+      });
+      $(".top_form h2").click(function () {
+        $(".pricelistdiv12").slideToggle();
+        $(".mybtn").toggleClass("fa-plus-circle");
+        $(".mybtn").toggleClass("fa-minus-circle");
+      });
+    });
+  </script>
+
+  <!-- form scroll js ens -->
+
+  <script>
+    $(document).ready(function () {
+      $(".nav-item-2").click(function () {
+        $(".collapse").removeClass("show");
+      });
+    });
+  </script>
+  <script>
+    $('.ami-slider').slick({
+      dots: true,
+      infinite: true,
+      arrows: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      pauseOnHover: false,
+      cssEase: 'linear',
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+  </script>
+
+  <script>
+    $('.gallery-slider').slick({
+      centerMode: true,
+      infinite: true,
+      centerPadding: '0%',
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      dots: false,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            dots: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            dots: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+          }
+        }
+      ]
+    });
+  </script>
+
+
+  <script>
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 50) {
+        $('#header_menu').addClass('newClass');
+      } else {
+        $('#header_menu').removeClass('newClass');
+      }
+    });
+
+
+
+    $(window).scroll(function () {
+                let winWidth = $(window).width();
+                var scroll = $(window).scrollTop();
+                if (winWidth < 767) {
+                    if (scroll >= 750) {
+                        $(".mobile-section-footer").addClass("active");
+                    } else {
+                        $(".mobile-section-footer").removeClass("active");
+                    }
+                }
+            }); 
+  </script>
+
+  <script>
+    $('.moreless-button').click(function () {
+      $('.moretext').slideToggle('slow');
+      if ($(this).text() == "Read More") $(this).text("Read Less")
+      else $(this).text("Read More");
+    })
+  </script>
+
+
+<script>
+  $('.image-link').magnificPopup({
+      type: 'image',
+      closeOnContentClick: true,
+      closeBtnInside: false,
+      mainClass: 'mfp-with-zoom mfp-img-mobile',
+      image: {
+        verticalFit: true,
+        titleSrc: function (item) {
+          return item.el.attr('title') ;
+        }
+      },
+      zoom: {
+        enabled: true,
+        duration: 300  
+      },
+      gallery: {
+        enabled: true  
+      }
+    });
+    $('.gallery-slider').on('afterChange', function (event, slick, currentSlide) {
+      $.magnificPopup.instance.popupsCache = {};  
+      $('.image-link').magnificPopup({
+        type: 'image',
+        closeOnContentClick: true,
+        closeBtnInside: false,
+        mainClass: 'mfp-with-zoom mfp-img-mobile',
+        image: {
+          verticalFit: true,
+          titleSrc: function (item) {
+            return item.el.attr('title');
+          }
+        },
+        zoom: {
+          enabled: true,
+          duration: 300
+        },
+        gallery: {
+          enabled: true
+        }
+      });
+    });
+</script>
+
+
+
 </body>
+
 </html>
